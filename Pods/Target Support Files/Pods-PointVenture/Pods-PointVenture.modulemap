@@ -1,0 +1,6 @@
+framework module Pods_PointVenture {
+  umbrella header "Pods-PointVenture-umbrella.h"
+
+  export *
+  module * { export * }
+}

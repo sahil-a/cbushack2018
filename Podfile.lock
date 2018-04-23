@@ -1,0 +1,50 @@
+PODS:
+  - AWSAPIGateway (2.6.15):
+    - AWSCore (= 2.6.15)
+  - AWSAuthCore (2.6.15):
+    - AWSCore (= 2.6.15)
+  - AWSCognito (2.6.15):
+    - AWSCore (= 2.6.15)
+  - AWSCore (2.6.15)
+  - AWSMobileClient (2.6.15):
+    - AWSAuthCore (= 2.6.15)
+  - AWSS3 (2.6.15):
+    - AWSCore (= 2.6.15)
+  - CryptoSwift (0.7.1)
+  - MMSCameraViewController (1.2.1)
+  - MMSProfileImagePicker (1.5.1):
+    - MMSCameraViewController (~> 1.2.1)
+
+DEPENDENCIES:
+  - AWSAPIGateway (~> 2.6.13)
+  - AWSAuthCore (~> 2.6.13)
+  - AWSCognito (~> 2.6.13)
+  - AWSMobileClient (~> 2.6.13)
+  - AWSS3 (~> 2.6.13)
+  - CryptoSwift (from `https://github.com/krzyzanowskim/CryptoSwift`, branch `swift4`)
+  - MMSProfileImagePicker
+
+EXTERNAL SOURCES:
+  CryptoSwift:
+    :branch: swift4
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+
+CHECKOUT OPTIONS:
+  CryptoSwift:
+    :commit: 25241ab5203e828906bbf70208b07640d2d84c69
+    :git: https://github.com/krzyzanowskim/CryptoSwift
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: a5eedfd47a8cbd381c43494534aa62227a6dc838
+  AWSAuthCore: 4918701499eca2e4591ede38ac71c96f5a3c855a
+  AWSCognito: 5aab600f32961d6a69598a14dab1312cbab7228d
+  AWSCore: 4a19c5635b3b9dcacec4d8dab835c2f6375a6fdb
+  AWSMobileClient: 20e3f51b7a8ad305ce8bdd1e60a46f5a88a72e1f
+  AWSS3: d3831638f91e7cba50b1fb2d8d82161c60a92dfe
+  CryptoSwift: 03d1267938034bbee88fce1bd78720e943bdbcf8
+  MMSCameraViewController: 70e128c8398686e323645e032aa8d1ea2b0cb54a
+  MMSProfileImagePicker: 46b3640a9d9c97ecf711e514cefdc53a2aac21e1
+
+PODFILE CHECKSUM: 5eb9f36ecf6c0d55a771dbacfcaa1b6c54f1238c
+
+COCOAPODS: 1.4.0
